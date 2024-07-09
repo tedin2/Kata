@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Верстка Макета</title> 
+</head>
+<body>
+  <header class="header">
+    <div class="header__left">
+      <button class="header__menu main-button main-button--burger-item" type="button"></button>
+      <div class="header__divider header__divider--tablet"></div>
+      <a href="#" class="header__logo logo"><img src="icons/CPS.svg" alt="Логотип компании" width="96" height="50" class="logo__image"></a>
+    </div>
+    <div class="header__right">  
+      <button class="header__call main-button main-button--call-item main-button--tablet" type="button"></button>
+      <button class="header__chat main-button main-button--chat-item main-button--tablet" type="button"></button>
+      <button class="header__profile main-button main-button--profile-item main-button--tablet" type="button"></button>
+      <div class="header__divider"></div>
+      <button class="header__repair main-button main-button--repair-item" type="button"></button>
+      <button class="header__check_status main-button main-button--check-status-item main-button--laptop" type="button"></button>
+    </div>
+  </header>
+  <main class="main">
+  <section class="heading">
+    <h1 class="heading__text">Услуги и сервисы</h1>
+    <div class="heading__menu">
+    <label class="heading__label-button">Оставить заявку<button class="heading__button-repair main-button main-button--repair-item" type="button"></button></label>
+    <label class="heading__label-button">Статус ремонта<button class="heading__button-check main-button main-button--check-status-item" type="button"></button></label>
+    </div>  
+  </section>
+<nav class="navigation">
+  <ul class="navigation__list">
+    <li class="navigation__item"><a class="navigation__link" href="#">Ремонтируемые бренды</a></li>
+    <li class="navigation__item"><a class="navigation__link" href="#">Ремонтируемые устройства</a></li>
+    <li class="navigation__item"><a class="navigation__link" href="#">Цены на услуги</a></li>
+    <li class="navigation__item"><a class="navigation__link" href="#">Адреса сервисных центров</a></li>
+    <li class="navigation__item"><a class="navigation__link" href="#">Специальные цены</a></li>
+    <li class="navigation__item"><a class="navigation__link" href="#">Отзывы</a></li>
+  </ul>
+</nav>
+<article class="about">
+  <div class="about__discription">
+    <div class="about__text">
+      <p>
+      Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+      </p>
+      <p class="about__addition about__addition--tablet">
+        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+        <span class="about__addition about__addition--laptop">
+          , что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+        </span>
+        </p>
+      </div>
+    <button class="about__button read-more-button" type="button">
+      Читать далее
+    </button>
+  </div>
+  <img src="icons/photo.jpg" alt="фотография компании" class="about__image">
+</article>
+</main>
+</body>
+</html>
